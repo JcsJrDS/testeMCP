@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevSoft - Desenvolvimento de Software</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>DevSoft</h1>
+            </div>
+            <nav>
+                <button class="menu-toggle">☰</button>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#precos">Preços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>Soluções em Desenvolvimento de Software</h2>
+                <p>Transformando ideias em soluções digitais de alto desempenho</p>
+                <a href="#contato" class="btn">Entre em contato</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="servicos-grid">
+                <div class="servico-card">
+                    <div class="servico-icon">📱</div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sites e aplicações web modernas e responsivas para sua empresa.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">💻</div>
+                    <h3>Aplicações Mobile</h3>
+                    <p>Aplicativos nativos e híbridos para iOS e Android.</p>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-icon">🔧</div>
+                    <h3>Consultoria</h3>
+                    <p>Análise e otimização de sistemas existentes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="precos" class="precos">
+        <div class="container">
+            <h2 class="section-title">Nossos Planos</h2>
+            <div class="precos-grid">
+                <div class="preco-card">
+                    <div class="preco-titulo">Básico</div>
+                    <div class="preco-valor">R$ 5.000</div>
+                    <ul class="preco-recursos">
+                        <li>Site institucional</li>
+                        <li>Até 5 páginas</li>
+                        <li>Design responsivo</li>
+                        <li>SEO básico</li>
+                        <li>Suporte por 30 dias</li>
+                    </ul>
+                    <a href="#contato" class="btn">Solicitar orçamento</a>
+                </div>
+                <div class="preco-card destaque">
+                    <div class="preco-tag">Mais popular</div>
+                    <div class="preco-titulo">Profissional</div>
+                    <div class="preco-valor">R$ 12.000</div>
+                    <ul class="preco-recursos">
+                        <li>Sistema web completo</li>
+                        <li>Área administrativa</li>
+                        <li>Integração com APIs</li>
+                        <li>Otimização SEO avançada</li>
+                        <li>Suporte por 90 dias</li>
+                    </ul>
+                    <a href="#contato" class="btn">Solicitar orçamento</a>
+                </div>
+                <div class="preco-card">
+                    <div class="preco-titulo">Enterprise</div>
+                    <div class="preco-valor">Sob consulta</div>
+                    <ul class="preco-recursos">
+                        <li>Solução personalizada</li>
+                        <li>Desenvolvimento sob medida</li>
+                        <li>Integrações avançadas</li>
+                        <li>Suporte prioritário</li>
+                        <li>Manutenção contínua</li>
+                    </ul>
+                    <a href="#contato" class="btn">Fale conosco</a>
+                </div>
+            </div>
+            <p class="precos-obs">Os valores são aproximados e podem variar de acordo com as necessidades específicas do projeto.</p>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contato-container">
+                <div class="contato-info">
+                    <p><strong>Email:</strong> contato@devsoft.com.br</p>
+                    <p><strong>Telefone:</strong> (11) 9999-9999</p>
+                    <p><strong>Endereço:</strong> Av. Paulista, 1000 - São Paulo/SP</p>
+                </div>
+                <form id="contato-form" class="contato-form">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 DevSoft - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html> 
